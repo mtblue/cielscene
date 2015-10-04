@@ -1,0 +1,446 @@
+@charset "UTF-8";
+
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	/*border-top: 3px solid #006699;*/
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+	margin-top: 0px;
+	padding-top: 0px;
+	color: #666666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+}
+
+h1 {
+}
+h2 {
+}
+
+h3 {
+}
+
+h4 {
+}
+
+h5 {
+}
+
+h6 {
+}
+
+/*コピーライト表記*/
+.copyright {
+	padding-right: 10px;
+	text-align: right;
+}
+.cf:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+.cl {
+	clear: both;
+}
+.red {
+	color: #cc0000;
+}
+.small {
+	font-size: 9px;
+}
+.bold {
+	font-weight: bold;
+}
+.mb30 {
+	margin: 0 0 30px 0;
+}
+.mb50 {
+	margin: 0 0 50px 0;
+}
+#pagetop {
+	width: 91px;
+	padding: 50px 0 50px 809px;
+	margin: 0 auto;
+	clear: both;
+}
+#pagetop a {
+	width: 91px;
+	height: 0;
+	padding: 31px 0 0 0;
+	background: url(../common/images/btn_pagetop.gif) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+#subinfo {
+	width: 204px;
+	height: 66px;
+	padding: 28px 0 0 796px;
+	margin: 0 auto 30px auto;
+	background: url(../common/images/f_bg_subinfo.gif) no-repeat left top;
+}
+#subinfo a {
+	width: 173px;
+	height: 0;
+	padding: 39px 0 0 0;
+	background: url(../common/images/f_btn_contact.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+#subinfo a:hover {
+	background: url(../common/images/f_btn_contact_over.png) no-repeat left top;
+}
+
+/*===================================================
+	1-2. Hypertext Style
+===================================================*/
+
+ /*ページトップへ*/
+.pagetop {
+	text-align: right;
+}
+
+
+/*===================================================
+	1-3. Layout
+===================================================*/
+/*-----------------------------------------------------------
+				conainer
+-----------------------------------------------------------*/
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #ffe200;
+}
+
+#container:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+/*\*/
+* html #container {
+	height: 1em;
+	overflow: visible;
+}
+/**/
+
+
+/*-----------------------------------------------------------
+				header
+-----------------------------------------------------------*/
+
+#header_bg {
+	width: 100%;
+	background: #ffffff;
+}
+#header {
+	width: 1000px;
+	overflow: hidden;
+ 	margin: 0 auto;
+}
+#header:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+#header #headerL {
+	float: left;
+	width: 405px;
+	padding: 10px 0 0 235px;
+}
+#headerL h1 {
+	width: 1000px;
+	padding: 0 0 10px 0;
+	font-weight: normal;
+	font-size: 11px;
+	color: #292b16;
+}
+#headerL #h_logo {
+	width: 405px;
+	height: 0;
+	padding: 110px 0 0 0;
+	background: url(../common/logo.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+#header #headerR {
+	float: right;
+	width: 360px;
+	padding: 10px 0;
+	text-align: center;
+	margin-top: 25px;
+}
+#headerR p {
+	/*float: left;
+	background: url(../common/images/h_bg_tel.png) no-repeat left top;
+	height: 0;*/
+	width: 360px;
+	/*padding: 88px 0 0;
+	overflow: hidden;*/
+}
+#headerR a {
+	float: right;
+	background: url(../common/images/h_btn_contact.png) no-repeat left top;
+	height: 0;
+	width: 203px;
+	/*padding: 88px 0 0;*/
+	overflow: hidden;
+	display: block;
+}
+#headerR a:hover {
+	background: url(../common/images/h_btn_contact_over.png) no-repeat left top;
+}
+#header #h_box_contact a:hover {
+	background: url(../common/images/h_btn_contact_over.png) no-repeat left top;
+}
+
+/*\*/
+* html #header {
+	overflow: visible;
+}
+/**/
+
+
+/*-----------------------------------------------------------
+				contents
+-----------------------------------------------------------*/
+
+#contents {
+	width: 900px;
+	margin: 0 auto;
+	clear: both;
+}
+#contents:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+
+/*-----------------------------------------------------------
+				menu
+-----------------------------------------------------------*/
+
+#menu_bg {
+	width: 100%;
+	height: 40px;
+	background: #ffffff;
+	/*background: url(../common/images/menu_bg.gif) repeat-x left top;*/
+}
+#menu {
+	width: 1000px;
+	margin: 0 auto;
+}
+#menu li {
+	/*width: 150px;*/
+	float: left;
+}
+#menu li a {
+	/*width: 150px;*/
+	height: 0;
+	padding: 40px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#menu #menu_top {
+	background: url(../common/gnavi01_btn.png) no-repeat left top;
+	width: 100px;
+}
+#menu #menu_top:hover {
+	background: url(../common/gnavi01_btn.png) no-repeat left top;
+}
+#menu #menu_concept {
+	background: url(../common/gnavi02_btn.png) no-repeat left top;
+	width: 180px;
+}
+#menu #menu_concept:hover {
+	background: url(../common/gnavi02_btn.png) no-repeat left top;
+}
+#menu #menu_location {
+	background: url(../common/gnavi03_btn.png) no-repeat left top;
+	width: 180px;
+}
+#menu #menu_location:hover {
+	background: url(../common/gnavi03_btn.png) no-repeat left top;
+}
+#menu #menu_plan {
+	background: url(../common/gnavi04_btn.png) no-repeat left top;
+	width: 180px;
+}
+#menu #menu_plan:hover {
+	background: url(../common/gnavi04_btn.png) no-repeat left top;
+}
+#menu #menu_equipment {
+	background: url(../common/gnavi05_btn.png) no-repeat left top;
+	width: 180px;
+}
+#menu #menu_equipment:hover {
+	background: url(../common/gnavi05_btn.png) no-repeat left top;
+}
+#menu #menu_outline {
+	background: url(../common/gnavi06_btn.png) no-repeat left top;
+	width: 180px;
+}
+#menu #menu_outline:hover {
+	background: url(../common/gnavi06_btn.png) no-repeat left top;
+}
+
+
+/*-----------------------------------------------------------
+				navi
+-----------------------------------------------------------*/
+
+#navi {
+	width: 958px;
+	margin: 30px auto;
+	padding: 15px 20px;
+	background: #ffffff;
+	border: 1px solid #c3ecff;
+}
+#navi a:link,
+#navi a:active,
+#navi a:visited {
+	color: #666666;
+	text-decoration: none;
+}
+#navi a:hover {
+	color: #666666;
+	text-decoration: underline;
+}
+
+
+/*-----------------------------------------------------------
+				footer
+-----------------------------------------------------------*/
+
+#footer_bg {
+	width: 100%;
+	border-top: 3px solid #1c516d;
+	margin-top:30px;
+}
+#footer {
+	width: 1000px;
+	overflow: hidden;
+ 	margin: 0 auto;
+ 	padding: 20px 0;
+}
+#footer:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+#footer #footerL {
+	float: left;
+	width: 650px;
+	padding: 10px 0;
+}
+#footerL img {
+	margin:5px;
+}
+#footerL p {;
+	color: #000000;
+	padding: 5px 0;
+}
+#footerL ul {
+	width:390px;
+	height:40px;
+	margin-top: 10px;
+	float: right;
+}
+#footerL li {
+	width:115px;
+	float: left;
+}
+#footerL ul a {
+	color: #000000;
+	text-decoration: none;
+}
+#footer #footerR {
+	float: right;
+	width: 350px;
+	padding: 10px 0;
+	text-align: right;
+}
+#footerR img {
+	margin:5px 0;
+}
+#footer_bg #copy {
+	background: #ffffff;
+	width: 100%;
+	margin: 0 auto;
+	padding: 10px 0;
+	text-align: center;
+	font-size: 11px;
+	color: #666666;
+}
+
+
+/*===================================================
+	1-4. Hack Style
+===================================================*/
+
+ /*IE6.0以下用透過PNG適用class*/
+
+/*\*/
+* html .iepngfix {
+	behavior: expression(IEPNGFIX.fix(this)); 
+}
+/**/
+
+ /*FireFoxで背景が出ない事象の回避*/
+.clearFix,
+.twoCol,
+.twoColA,
+.twoColB,
+.threeCol,
+.threeColA,
+.threeColB {
+	overflow:hidden;
+}
+
+.clearFix:after,
+.twoCol:after,
+.twoColA:after,
+.twoColB:after,
+.threeCol:after,
+.threeColA:after,
+.threeColB:after {
+	content:"";
+	display:block;
+	clear:both;
+	height:0px;
+	overflow:hidden;
+}
+
+/*\*/
+* html .clearFix,
+* html .twoCol,
+* html .twoColA,
+* html .twoColB,
+* html .threeCol,
+* html .threeColA,
+* html .threeColB {
+	height:1em;
+	overflow:visible;
+}
+/**/

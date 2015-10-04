@@ -1,0 +1,637 @@
+@charset "utf-8";
+
+#bg_cloud {
+	background: url(../img/results_back.png) repeat-x left top;
+	width: 1000px;
+	overflow: hidden;
+ 	margin: 0 auto;
+ 	margin-top:20px ;
+}
+#bg_cloud .left {
+	float: left;
+	width: 600px;
+	padding: 20px;
+}
+#bg_cloud .left #results {
+	float: right;
+}
+#bg_cloud #photo {
+	margin-top:20px;
+}
+#bg_cloud p {
+	margin-top: 10px;
+}
+/* 画像自動スクロール */
+#top #loopslider {
+	width: 100%;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	clear: both;
+	margin: 20px 0;
+}
+#top #loopslider ul {
+	width: 1000px;
+	height: 200px;
+	margin: 0 auto;
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+#top #loopslider ul li {
+	width: 275px;
+	height: 200px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+}
+#top #box_subinfo_bg {
+	width: 100%;
+	padding: 30px 0;
+	clear: both;
+}
+#top #box_subinfo {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+/* コンテンツ */
+#contents_bg {
+	width: 100%;
+	height: 340px;
+}
+#contents_bg .text {
+	text-align: center;
+	margin: 20px 0;
+}
+#contents {
+	width: 1000px;
+	margin: 0 auto;
+}
+#contents li {
+	width: 250px;
+	float: left;
+}
+#contents li a {
+	width: 250px;
+	height: 0;
+	padding: 360px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#contents #contents01 {
+	background: url(../img/maincontents01_btn.jpg) no-repeat left top;
+}
+#contents #contents01:hover {
+	background: url(../img/maincontents01_btn_over.jpg) no-repeat left top;
+}
+#contents #contents02 {
+	background: url(../img/maincontents02_btn.jpg) no-repeat left top;
+}
+#contents #contents02:hover {
+	background: url(../img/maincontents02_btn_over.jpg) no-repeat left top;
+}
+#contents #contents03 {
+	background: url(../img/maincontents03_btn.jpg) no-repeat left top;
+}
+#contents #contents03:hover {
+	background: url(../img/maincontents03_btn_over.jpg) no-repeat left top;
+}
+#contents #contents04 {
+	background: url(../img/maincontents04_btn.jpg) no-repeat left top;
+}
+#contents #contents04:hover {
+	background: url(../img/maincontents04_btn_over.jpg) no-repeat left top;
+}
+
+#box_subinfo p {
+	font-size: 20px;
+	text-align: center;
+	color: #000000;
+	margin:20px 0;
+}
+#box_subinfo .right {
+	float: right;
+}
+#top #tit_newinfo {
+	width: 130px;
+	float: left;
+}
+#top #box_info {
+	width: 321px;
+	height: 79px;
+	padding: 15px 0 0 20px;
+	margin: 0 30px 0 0;
+	background: #e6f7ff;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	float: left;
+}
+#top #box_info dl {
+	width: 321px;
+}
+#top #box_info dt {
+	width: 321px;
+	color: #d90000;
+	font-weight: bold;
+}
+#top #box_info dd {
+	width: 321px;
+	color: #333333;
+}
+
+/* ロケーション */
+#location h2 {
+	width: 600px;
+	height: 0;
+	padding: 55px 0 0 0;
+	margin: 30px auto 50px auto;
+	background: url(../location/images/tit_location.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+#location #tit_midori {
+	width: 900px;
+	height: 0;
+	padding: 75px 0 0 0;
+	background: url(../location/images/tit_midori.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+#location #tit_osakakyouto {
+	width: 900px;
+	height: 0;
+	padding: 75px 0 0 0;
+	margin: 20px 0 0 0;
+	background: url(../location/images/tit_osakakyouto.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+	clear: both;
+}
+#location .btm_location {
+	width: 900px;
+	padding: 0 0 11px 0;
+	margin: 0 0 45px 0;
+	background: url(../location/images/btm_location.png) no-repeat left bottom;
+}
+#location .bg_location {
+	width: 818px;
+	padding: 50px 41px 40px 41px;
+	background: url(../location/images/bg_location.png) repeat-y left top;
+}
+#location .bg_location .img {
+	width: 260px;
+	margin: 0 40px 0 0;
+	color: #292b16;
+	float: left;
+}
+#location .bg_location .img img {
+	margin: 0 0 3px 0;
+}
+#location .bg_location .img p {
+	padding: 0 0 10px 0;
+}
+#location .bg_location .txt {
+	width: 518px;
+	float: left;
+	line-height: 1.8;
+	font-size: 14px;
+	color: #292b16;
+}
+#location .bg_location .txt p {
+	font-size: 14px;
+	padding: 0 0 20px 0;
+	color: #292b16;
+}
+#location #list_location {
+	width: 900px;
+	clear: both;
+}
+#location #list_location li {
+	width: 280px;
+	margin: 0 30px 15px 0;
+	color: #292b16;
+	float: left;
+}
+#location #list_location li.end {
+	margin: 0;
+}
+#location #list_location img {
+	margin: 0 0 3px 0;
+}
+#location #txt_location {
+	width: 858px;
+	padding: 15px 20px;
+	margin: 0 0 45px 0;
+	background: #ffffff;
+	border: 1px solid #d0d0d0;
+	font-size: 11px;
+	color: #292b16;
+	clear: both;
+}
+#location #box_trainmap {
+	width: 100%;
+	padding: 0;
+	background: url(../location/images/bg_trainmap.gif) repeat left top;
+	text-align: center;
+}
+#location #box_access {
+	width: 319px;
+	height: 129px;
+	padding: 443px 0 0 581px;
+	margin: 50px auto 0 auto;
+	background: url(../location/images/img_map.png) no-repeat left top;
+}
+#location #box_access a {
+	width: 319px;
+	height: 0;
+	padding: 63px 0 0 0;
+	background: url(../location/images/btn_gm.gif) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+
+/* 区画図 */
+#section h2 {
+	width: 600px;
+	height: 0;
+	padding: 55px 0 0 0;
+	margin: 30px auto 35px auto;
+	background: url(../section/images/tit_section.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+
+/* プラン */
+#plan h2 {
+	width: 600px;
+	height: 0;
+	padding: 55px 0 0 0;
+	margin: 30px auto 35px auto;
+	background: url(../plan/images/tit_plan.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+
+/* 物件概要 */
+#outline h2 {
+	width: 600px;
+	height: 0;
+	padding: 55px 0 0 0;
+	margin: 30px auto 35px auto;
+	background: url(../outline/images/tit_outline.png) no-repeat left top;
+	overflow: hidden;
+	display: block;
+}
+#outline .top_location {
+	width: 900px;
+	padding: 11px 0 0 0;
+	background: url(../outline/images/top_outline.png) no-repeat left top;
+}
+#outline .btm_location {
+	width: 900px;
+	padding: 0 0 11px 0;
+	margin: 0 0 45px 0;
+	background: url(../outline/images/btm_outline.png) no-repeat left bottom;
+}
+#outline .bg_location {
+	width: 818px;
+	padding: 50px 41px 40px 41px;
+	background: url(../outline/images/bg_outline.png) repeat-y left top;
+}
+#outline dl {
+	width: 818px;
+}
+#outline dt {
+	width: 170px;
+	background: url(../outline/images/line_outline.png) repeat-x left bottom;
+	padding: 15px;
+	margin: 0 0 10px 0;
+	color: #292b16;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	clear: both;
+}
+#outline dd {
+	width: 588px;
+	padding: 15px;
+	background: url(../outline/images/line_outline.png) repeat-x left bottom;
+	margin: 0 0 10px 0;
+	color: #292b16;
+	font-size: 14px;
+	float: left;
+}
+
+/* 設備仕様 */
+#equip h2 {
+	width: 600px;
+	height: 0;
+	padding: 55px 0 0 0;
+	margin: 30px auto 35px auto;
+	overflow: hidden;
+}
+#equip #tit_e_w {
+	background: url(../equipment/images/tit_equipment_w.png) no-repeat left top;
+}
+#equip #tit_e_kitchen {
+	background: url(../equipment/images/tit_equipment_kitchen.png) no-repeat left top;
+}
+#equip #tit_e_bath {
+	background: url(../equipment/images/tit_equipment_bath.png) no-repeat left top;
+}
+#equip #tit_e_powder {
+	background: url(../equipment/images/tit_equipment_powder.png) no-repeat left top;
+}
+#equip #tit_e_toilet {
+	background: url(../equipment/images/tit_equipment_toilet.png) no-repeat left top;
+}
+#equip #tit_e_other {
+	background: url(../equipment/images/tit_equipment_other.png) no-repeat left top;
+}
+#equip .top_equip {
+	clear: both;
+	width: 900px;
+	padding: 11px 0 0 0;
+	background: url(../equipment/images/top_equipment.png) no-repeat left top;
+}
+#equip .btm_equip {
+	width: 900px;
+	padding: 0 0 11px 0;
+	margin: 0 0 45px 0;
+	background: url(../equipment/images/btm_equipment.png) no-repeat left bottom;
+}
+#equip .bg_equip {
+	width: 818px;
+	padding: 50px 41px 20px 41px;
+	background: url(../equipment/images/bg_equipment.png) repeat-y left top;
+}
+#equip .bg_equip .txt {
+	width: 518px;
+	float: left;
+	line-height: 1.8;
+	margin: 0 0 30px 0;
+	font-size: 14px;
+	color: #292b16;
+}
+#equip .bg_equip .txt p {
+	font-size: 14px;
+	padding: 0 0 20px 0;
+	color: #292b16;
+}
+#equip .bg_equip .txt2 {
+	width: 818px;
+	line-height: 1.8;
+	margin: 0 0 30px 0;
+	font-size: 14px;
+	color: #292b16;
+}
+#equip #box_supplement {
+	width: 788px;
+	margin: 0 0 30px 0;
+	padding: 13px 15px;
+	background: #e4e5e1;
+	line-height: 1.3;
+	font-size: 8px;
+	clear: both;
+}
+#equip h3 {
+	width: 818px;
+	height: 0;
+	padding: 41px 0 0 0;
+	margin: 0 0 20px 0;
+	overflow: hidden;
+	clear: both;
+}
+#equip #tit_co2 {
+	background: url(../equipment/images/tit_w_sub1.gif) no-repeat left top;
+}
+#equip #tit_24h {
+	background: url(../equipment/images/tit_w_sub2.gif) no-repeat left top;
+}
+#equip #tit_auxiliary {
+	background: url(../equipment/images/tit_w_sub3.gif) no-repeat left top;
+}
+#equip dl {
+	width: 818px;
+	clear: both;
+}
+#equip dt {
+	width: 170px;
+	background: #6fb484;
+	padding: 15px;
+	margin: 0 0 10px 0;
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	float: left;
+	clear: both;
+}
+#equip dd {
+	width: 588px;
+	padding: 15px;
+	background: #d0e8d8;
+	margin: 0 0 10px 0;
+	color: #292b16;
+	font-size: 14px;
+	float: left;
+}
+#equip #cap_other {
+	width: 220px;
+	height: 0;
+	padding: 18px 0 0 0;
+	margin: 0 auto 30px auto;
+	background: url(../equipment/images/cap_other.png) no-repeat left top;
+	overflow: hidden;
+	clear: both;
+}
+#equip #menu_equip {
+	width: 900px;
+}
+#equip #menu_equip li {
+	width: 180px;
+	float: left;
+}
+#equip #menu_equip li a {
+	width: 180px;
+	height: 0;
+	padding: 100px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#equip #menu_e_w a {
+	background: url(../equipment/images/menu_w.png) no-repeat left top;
+}
+#equip #menu_e_w a:hover {
+	background: url(../equipment/images/menu_w_over.png) no-repeat left top;
+}
+#equip #menu_e_kitchen a {
+	background: url(../equipment/images/menu_kitchen.png) no-repeat left top;
+}
+#equip #menu_e_kitchen a:hover {
+	background: url(../equipment/images/menu_kitchen_over.png) no-repeat left top;
+}
+#equip #menu_e_kitchen2 a {
+	background: url(../equipment/images/menu_kitchen2.png) no-repeat left top;
+}
+#equip #menu_e_kitchen2 a:hover {
+	background: url(../equipment/images/menu_kitchen2_over.png) no-repeat left top;
+}
+#equip #menu_e_bath a {
+	background: url(../equipment/images/menu_bath.png) no-repeat left top;
+}
+#equip #menu_e_bath a:hover {
+	background: url(../equipment/images/menu_bath_over.png) no-repeat left top;
+}
+#equip #menu_e_powder a {
+	background: url(../equipment/images/menu_powder.png) no-repeat left top;
+}
+#equip #menu_e_powder a:hover {
+	background: url(../equipment/images/menu_powder_over.png) no-repeat left top;
+}
+#equip #menu_e_toilet a {
+	background: url(../equipment/images/menu_toilet.png) no-repeat left top;
+}
+#equip #menu_e_toilet a:hover {
+	background: url(../equipment/images/menu_toilet_over.png) no-repeat left top;
+}
+#equip #menu_e_toilet2 a {
+	background: url(../equipment/images/menu_toilet2.png) no-repeat left top;
+}
+#equip #menu_e_toilet2 a:hover {
+	background: url(../equipment/images/menu_toilet2_over.png) no-repeat left top;
+}
+#equip #menu_e_other a {
+	background: url(../equipment/images/menu_other.png) no-repeat left top;
+}
+#equip #menu_e_other a:hover {
+	background: url(../equipment/images/menu_other_over.png) no-repeat left top;
+}
+.red {
+	color: #cc0000;
+	font-size: 14px;
+	font-weight:bold;
+}
+#equip #eq_navi {
+	width: 900px;
+	margin: 0;
+	padding: 0;
+}
+#equip #eq_navi li {
+	float: left;
+}
+#equip #eq_navi #navi_w {
+	background: url(../equipment/images/navi_w.png) no-repeat left top;
+	padding: 169px 0 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	width: 140px;
+	margin: 0 12px 0 0;
+}
+#equip #eq_navi #navi_w:hover {
+	background: url(../equipment/images/navi_w_over.png) no-repeat left top;
+}
+#equip #eq_navi #navi_kitchen {
+	background: url(../equipment/images/navi_kitchen.png) no-repeat left top;
+	padding: 169px 0 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	width: 140px;
+	margin: 0 12px 0 0;
+}
+#equip #eq_navi #navi_kitchen:hover {
+	background: url(../equipment/images/navi_kitchen_over.png) no-repeat left top;
+}
+#equip #eq_navi #navi_bath {
+	background: url(../equipment/images/navi_bath.png) no-repeat left top;
+	padding: 169px 0 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	width: 140px;
+	margin: 0 12px 0 0;
+}
+#equip #eq_navi #navi_bath:hover {
+	background: url(../equipment/images/navi_bath_over.png) no-repeat left top;
+}
+#equip #eq_navi #navi_powder {
+	background: url(../equipment/images/navi_powder.png) no-repeat left top;
+	padding: 169px 0 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	width: 140px;
+	margin: 0 12px 0 0;
+}
+#equip #eq_navi #navi_powder:hover {
+	background: url(../equipment/images/navi_powder_over.png) no-repeat left top;
+}
+#equip #eq_navi #navi_toilet {
+	background: url(../equipment/images/navi_toilet.png) no-repeat left top;
+	padding: 169px 0 0;
+	height: 0;
+	overflow: hidden;
+	display: block;
+	width: 140px;
+	margin: 0 12px 0 0;
+}
+#equip #eq_navi #navi_toilet:hover {
+	background: url(../equipment/images/navi_toilet_over.png) no-repeat left top;
+}
+#equip #eq_navi #navi_other {
+	background: url(../equipment/images/navi_other.png) no-repeat left top;
+	padding: 169px 0 0;
+	height: 0;
+	overflow: hidden;
+	width: 140px;
+	display: block;
+}
+#equip #eq_navi #navi_other:hover {
+	background: url(../equipment/images/navi_other_over.png) no-repeat left top;
+}
+
+/* 設備 */
+#equip .bg_equip #img {
+	width: 818px;
+	margin: 0 0 60px 0;
+}
+#equip .bg_equip #img2 {
+	width: 818px;
+	margin: 0 0 15px 0;
+}
+#equip .bg_equip #list {
+	width: 818px;
+}
+#equip .bg_equip #list li {
+	width: 399px;
+	margin: 0 20px 30px 0;
+	float: left;
+	overflow: hidden;
+}
+#equip .bg_equip #list img {
+	width: 399px;
+	margin: 0 0 5px 0;
+	display: block;
+}
+#equip .bg_equip #list .last {
+	width: 399px;
+	margin: 0 0 30px 0;
+}
+#equip #txt_w {
+	width: 818px;
+	padding: 5px 0;
+	background: #999999;
+	text-align: center;
+	color: #ffffff;
+	font-weight: bold;
+	margin: 0 0 30px 0;
+}
+#equip .w_img {
+	float: left;
+	width: 260px;
+	margin: 0 30px 30px 0;
+}

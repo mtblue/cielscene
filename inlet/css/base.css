@@ -1,0 +1,680 @@
+@charset "UTF-8";
+
+body {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color:#000;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color:#000;
+}
+
+h1 {
+	font-size: 12px; /*25pxに相当*/
+	line-height:15px;
+	font-weight:normal;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#mainBox h1 {
+	margin-left: 0;
+	color: #000000;
+}
+h2 {
+	font-size: 159%; /*21pxに相当*/
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 144%; /*19pxに相当*/
+	margin-bottom: 0.5em;
+}
+
+h4 {
+	font-size: 122%; /*16pxに相当*/
+	padding-left:15px;
+}
+
+h5 {
+	font-size: 107%; /*14pxに相当*/
+}
+
+h6 {
+	font-size: 107%; /*14pxに相当*/
+}
+
+/*コピーライト表記*/
+.copyright {
+	padding-right: 10px;
+	text-align: right;
+}
+
+
+/*===================================================
+	1-2. Hypertext Style
+===================================================*/
+
+ /*ページトップへ*/
+.pagetop {
+	text-align: right;}
+
+
+/*===================================================
+	1-3. Layout
+===================================================*/
+
+/*-----------------------------------------------------------
+				wrapper
+-----------------------------------------------------------*/
+
+#wrapper {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #000;
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------
+				header
+-----------------------------------------------------------*/
+
+#header:after {
+	content: "";
+	clear: both;
+	display: block;
+	height: 1px;
+	overflow: hidden;
+}
+
+/*\*/
+* html #header {
+	height: 1em;
+	overflow: visible;
+}
+/**/
+
+/*-----------------------------------------------------------
+				conainer
+-----------------------------------------------------------*/
+
+#container {
+	width: 900px;
+	overflow: hidden;
+}
+
+#container:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/*\*/
+* html #container {
+	height: 1em;
+	overflow: visible;
+}
+/**/
+
+/*-----------------------------------------------------------
+				footer
+-----------------------------------------------------------*/
+
+#footer {
+	width: 900px;
+	clear:both;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	overflow: hidden;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+/*===================================================
+	1-4. Hack Style
+===================================================*/
+
+ /*IE6.0以下用透過PNG適用class*/
+
+/*\*/
+* html .iepngfix {
+	behavior: expression(IEPNGFIX.fix(this)); 
+}
+/**/
+
+ /*FireFoxで背景が出ない事象の回避*/
+.clearFix,
+.twoCol,
+.twoColA,
+.twoColB,
+.threeCol,
+.threeColA,
+.threeColB {
+	overflow:hidden;
+}
+
+.clearFix:after,
+.twoCol:after,
+.twoColA:after,
+.twoColB:after,
+.threeCol:after,
+.threeColA:after,
+.threeColB:after {
+	content:"";
+	display:block;
+	clear:both;
+	height:0px;
+	overflow:hidden;
+}
+
+/*\*/
+* html .clearFix,
+* html .twoCol,
+* html .twoColA,
+* html .twoColB,
+* html .threeCol,
+* html .threeColA,
+* html .threeColB {
+	height:1em;
+	overflow:visible;
+}
+/**/
+
+
+/*===================================================
+	1-1. Font (Yahoo UI Library Fonts CSS)
+===================================================*/
+
+body {
+	font-size: 12px;
+	*font-size: small;
+	*font: x-small;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-color: #EFF0EC;
+	background-repeat: repeat-x;
+}
+
+table {
+	font-size: inherit;
+}
+
+select, 
+input, 
+textarea {
+	font: 99% arial,helvetica,clean,sans-serif;
+}
+
+pre, 
+code {
+	font: 115% monospace;
+	*font-size: 100%;
+}
+
+
+/*===================================================
+	1-2. Reset Style
+===================================================*/
+
+/*要素の初期マージン・余白の初期化*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+	margin: 0;
+	padding: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,
+img {
+	border: 0;
+	vertical-align: bottom;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+em,
+strong,
+h,
+var { 
+	font-style: normal;
+	font-weight: normal;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+caption,
+th {
+	text-align: left;
+}
+
+q:before,
+q:after { 
+	content: '';
+}
+
+abbr,
+acronym {
+	border: 0;
+}
+
+/*===================================================
+	1-3. Text Style
+===================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 100%;
+	text-align: right;
+	background-color: #3E3A39;
+	color: #FFF;
+	width: 660px;
+	float: right;
+}
+
+pre {
+	padding: 0.5em 10px; 
+	border-left: 2px solid #eee;
+	width: 95%;
+	overflow: scroll;
+	color: #3d4263;
+	font-family: "Osaka－等幅", monospace;
+}
+
+pre[title]::before {
+	margin-bottom: 0.4em;
+	padding: 0 10px;
+	display: block; 
+	content: attr(title);
+	color: black;
+	background-color: #eee;
+}
+
+blockquote {
+	margin: 1.5em 20px 1.5em 40px;
+	padding: 1px; 
+	background-color: #eeeeee;
+}
+
+blockquote * {
+	color: #888888;
+}
+
+blockquote[title]::before {
+	margin: 2px;
+	padding: 0.1em 16px;
+	display: block;
+	content: attr(title); 
+	background-color: #fff; 
+}
+
+blockquote[cite]::after {
+	padding: 0.1em 20px;
+	display: block; 
+	content: attr(cite);
+	color: #333333;
+	text-align: right;
+}
+
+cite {
+	display: block;
+	color: #333333;
+	text-align: right;
+}
+
+em {
+	font-weight: bold;
+}
+
+strong {
+	color: #FF0000;
+}
+
+code {
+	font-family:  monospace;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #aaa;
+	cursor: help;
+}
+
+kbd {
+	border: 1px solid #ccc;
+	padding: 0 0.3em; 
+	background-color: #f5f5f5;
+	font-family: monospace;
+	text-transform: uppercase;
+}
+
+/*===================================================
+	1-4. Hypertext Style
+===================================================*/
+
+/*Win Firefox用リンク領域点線非表示*/
+:focus {
+	?moz-outline-style: none;
+}
+
+/*Mac Firefox用リンク領域点線非表示*/
+a {
+	outline: none;
+ }
+
+/*リンク要素の初期カラー*/
+a:link {
+	color: #3E3A39;
+}
+
+a:visited {
+	color: #3E3A39;
+}
+
+a:hover {
+	color: #3D4D56;
+}
+
+#footerNavi a:link {
+	color: #FFFFFF;
+}
+
+#footerNavi a:visited {
+	color: #FFFFFF;
+}
+
+#footerNavi a:hover {
+	color: #FFFFFF;
+}
+
+/*===================================================
+	1-5. List Style
+===================================================*/
+
+ul,
+ol,
+dl {
+	margin:0;
+	list-style-position: outside;
+}
+
+li,
+dt,
+dd {
+	font-size: 100%;
+}
+
+dt {
+	font-weight: normal;
+}
+
+dd {
+	margin:0;
+}
+
+li li,
+li p,
+li pre,
+li dt,
+li dd,
+dd li,
+dd p,
+dd pre,
+dd dt,
+dd dd {
+	font-size: 100%;
+}
+
+li ul,
+li ol,
+li dl,
+li p,
+dd ul,
+dd ol,
+dd dl,
+dd p {
+	margin: 0;
+}
+
+/*===================================================
+	1-6. Form Style
+===================================================*/
+
+form {
+	margin:0;
+}
+
+fieldset {
+}
+
+/*フォーム内legend要素のマージン*/
+legend {
+	margin: 0.5em 0;
+	padding: 0 10px;
+}
+
+/*フォーム内テキストエリア内の余白*/
+textarea {
+	padding: 2px 5px;/*構築サイトに応じて変更*/
+}
+
+/*===================================================
+	1-7. Table Style
+===================================================*/
+/*テーブルの初期スタイル*/
+table {
+	margin:0;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #D1C0B6;
+}
+
+th,
+td {
+	padding: 3px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+}
+
+th {
+	background: #DFDFDF;/*構築サイトに応じて変更*/
+}
+
+
+/*===================================================
+	1-2. Color
+===================================================*/
+
+/*フォームなどの必須項目*/
+.necessity {
+	color: #CC0000;
+}
+
+/*===================================================
+	1-3. List
+===================================================*/
+
+/*最後尾リストのボーダー非表示*/
+.listEnd {
+	border: none;
+}
+
+#headerRightBox .listend {
+	border-right: none;
+}
+
+/*===================================================
+	1-5. Form
+===================================================*/
+
+/*フォーム*/
+.contactForm {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.contactForm legend {
+	display: none;
+}
+
+.contactForm dl {
+	width: 550px;
+	overflow: hidden;
+	position: relative;
+}
+
+.contactForm dl:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/*\*/
+* html .contactForm dl {
+	height: 1em;
+	overflow: visible;
+}
+/**/
+
+.contactForm dt {
+	width: 140px;
+	padding: 5px 0px 5px 10px;
+	float: left;
+	clear: left;
+	position: relative;
+	left: 0px;
+	top: 0.5em;
+	border-top: 1px solid #DEDEDE;
+}
+
+.contactForm dd {
+	width: 350px;
+	padding: 5px 0px;
+	float:left;
+	position: relative;
+	left: 0px;
+	top: 0.5em;
+	border-top: 1px solid #DEDEDE;
+}
+
+.contactForm #name,
+.contactForm #kana {
+	width: 200px;
+}
+
+.contactForm #postNum {
+	width: 100px;
+}
+
+.contactForm #add,
+.contactForm #mail,
+.contactForm #remail {
+	width: 300px;
+}
+
+.contactForm #quest {
+	width: 300px;
+	height: 150px;
+}
+
+/*フォーム内入力エリア*/
+.contactForm dl input,
+.contactForm dl textarea {
+	padding: 2px;
+	border: 1px solid #FFFFFF;/*構築サイトに応じて変更*/
+	background-color: #E1E1E1;/*構築サイトに応じて変更*/
+}
+
+input {
+	line-height: 1.4;
+}
+
+/*テキスト入力エリアにマウスオーバー時の設定*/
+.contactForm dl input:hover,
+.contactForm dl textarea:hover {
+	border: 1px solid #666666;/*構築サイトに応じて変更*/
+}
+
+/*テキスト入力エリアにフ選択時の設定*/
+.contactForm dl input:focus,
+.contactForm dl textarea:focus {
+	border: 1px solid #222222;/*構築サイトに応じて変更*/
+	background:#E6F7FF;/*構築サイトに応じて変更*/
+}
+
+.submitBtn {
+	padding: 1em 0;
+	text-align: center;
+}
+/*===================================================
+	1-6. Common
+===================================================*/
+#header h1 {
+	font-size: 12px;
+	color: #FFF;
+	float: right;
+	margin-bottom: 10px;
+	text-align: right;
+	width: 660px;
+	margin-top: 5px;
+}
+#header #headerArea h2 {
+	float: left;
+	width: 200px;
+}
+#mainTop h3 {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;

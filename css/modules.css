@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+/*===================================================
+	1-2. Color
+===================================================*/
+
+/*フォームなどの必須項目*/
+.necessity {
+	color: #CC0000;
+}
+
+/*===================================================
+	1-3. List
+===================================================*/
+
+/*最後尾リストのボーダー非表示*/
+.listEnd {
+	border: none;
+}
+
+#headerRightBox .listend {
+	border-right: none;
+}
+
+/*===================================================
+	1-5. Form
+===================================================*/
+
+/*フォーム*/
+.contactForm {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.contactForm legend {
+	display: none;
+}
+
+.contactForm dl {
+	width: 550px;
+	overflow: hidden;
+	position: relative;
+}
+
+.contactForm dl:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+/*\*/
+* html .contactForm dl {
+	height: 1em;
+	overflow: visible;
+}
+/**/
+
+.contactForm dt {
+	width: 140px;
+	padding: 5px 0px 5px 10px;
+	float: left;
+	clear: left;
+	position: relative;
+	left: 0px;
+	top: 0.5em;
+	border-top: 1px solid #DEDEDE;
+}
+
+.contactForm dd {
+	width: 350px;
+	padding: 5px 0px;
+	float:left;
+	position: relative;
+	left: 0px;
+	top: 0.5em;
+	border-top: 1px solid #DEDEDE;
+}
+
+.contactForm #name,
+.contactForm #kana {
+	width: 200px;
+}
+
+.contactForm #postNum {
+	width: 100px;
+}
+
+.contactForm #add,
+.contactForm #mail,
+.contactForm #remail {
+	width: 300px;
+}
+
+.contactForm #quest {
+	width: 300px;
+	height: 150px;
+}
+
+/*フォーム内入力エリア*/
+.contactForm dl input,
+.contactForm dl textarea {
+	padding: 2px;
+	border: 1px solid #FFFFFF;/*構築サイトに応じて変更*/
+	background-color: #E1E1E1;/*構築サイトに応じて変更*/
+}
+
+input {
+	line-height: 1.4;
+}
+
+/*テキスト入力エリアにマウスオーバー時の設定*/
+.contactForm dl input:hover,
+.contactForm dl textarea:hover {
+	border: 1px solid #666666;/*構築サイトに応じて変更*/
+}
+
+/*テキスト入力エリアにフ選択時の設定*/
+.contactForm dl input:focus,
+.contactForm dl textarea:focus {
+	border: 1px solid #222222;/*構築サイトに応じて変更*/
+	background:#E6F7FF;/*構築サイトに応じて変更*/
+}
+
+.submitBtn {
+	padding: 1em 0;
+	text-align: center;
+}
+/*===================================================
+	1-6. Common
+===================================================*/
