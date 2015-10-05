@@ -12,11 +12,32 @@
 	width: 600px;
 	padding: 20px;
 }
+#bg_cloud .right {
+	float: right;
+	width: 330px;
+	padding-right: 25px;
+}
 #bg_cloud .left #results {
+	width: 148px;
 	float: right;
 }
+#results li a {
+	height: 0;
+	padding: 23px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#results #results_btn {
+	background: url(../img/results_btn.png) no-repeat left top;
+	width: 148px;
+}
+#results #results_btn:hover {
+	background: url(../img/results_btn_over.png) no-repeat left top;
+}
+
 #bg_cloud #photo {
 	margin-top:20px;
+	float: right;
 }
 #bg_cloud p {
 	margin-top: 10px;
@@ -54,6 +75,51 @@
 #top #box_subinfo {
 	width: 1000px;
 	margin: 0 auto;
+}
+#link {
+	width: 1000px;
+	margin: 0 auto;
+}
+#link li {
+	float: left;
+}
+#link li a {
+	height: 0;
+	padding: 120px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#link #youtube_btn {
+	background: url(../img/youtube_btn.jpg) no-repeat left top;
+	width: 470px;
+}
+#link #youtube_btn:hover {
+	background: url(../img/youtube_btn_over.jpg) no-repeat left top;
+}
+#link #blog_btn {
+	background: url(../img/blog_btn.jpg) no-repeat left top;
+	width: 470px;
+	float: right;
+}
+#link #blog_btn:hover {
+	background: url(../img/blog_btn_over.jpg) no-repeat left top;
+}
+#reservation {
+	width: 1000px;
+	margin: 0 auto;
+}
+#reservation li a {
+	height: 0;
+	padding: 80px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#reservation #reservation_btn {
+	background: url(../img/reservation_btn.jpg) no-repeat left top;
+	width: 1000px;
+}
+#reservation #reservation_btn:hover {
+	background: url(../img/reservation_btn_over.jpg) no-repeat left top;
 }
 
 /* コンテンツ */
@@ -109,7 +175,8 @@
 	font-size: 20px;
 	text-align: center;
 	color: #000000;
-	margin:20px 0;
+	margin: 20px 0;
+	font-family: "ＭＳ Ｐ明朝", "MS PMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", serif;
 }
 #box_subinfo .right {
 	float: right;

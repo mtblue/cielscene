@@ -182,32 +182,41 @@ h6 {
 #header #headerR {
 	float: right;
 	width: 360px;
-	padding: 10px 0;
-	text-align: center;
-	margin-top: 25px;
+	padding: 0;
+	text-align: right;
+	margin-top: 20px;
 }
 #headerR p {
-	/*float: left;
-	background: url(../common/images/h_bg_tel.png) no-repeat left top;
-	height: 0;*/
 	width: 360px;
-	/*padding: 88px 0 0;
-	overflow: hidden;*/
 }
-#headerR a {
-	float: right;
-	background: url(../common/images/h_btn_contact.png) no-repeat left top;
+#outline {
+	width: 360px;
+	margin: 0 auto;
+}
+#outline li {
+	float: left;
+}
+#outline li a {
 	height: 0;
-	width: 203px;
-	/*padding: 88px 0 0;*/
+	padding: 25px 0 0 0;
 	overflow: hidden;
 	display: block;
 }
-#headerR a:hover {
-	background: url(../common/images/h_btn_contact_over.png) no-repeat left top;
+#outline #outline_btn {
+	background: url(../common/outline_btn.png) no-repeat left top;
+	width: 150px;
+	margin-left: 50px;
 }
-#header #h_box_contact a:hover {
-	background: url(../common/images/h_btn_contact_over.png) no-repeat left top;
+#outline #outline_btn:hover {
+	background: url(../common/outline_btn_over.png) no-repeat left top;
+}
+#outline #header-contact_btn {
+	background: url(../common/header-contact_btn.png) no-repeat left top;
+	width: 150px;
+	margin-left: 10px;
+}
+#outline #header-contact_btn:hover {
+	background: url(../common/header-contact_btn_over.png) no-repeat left top;
 }
 
 /*\*/
@@ -265,14 +274,14 @@ h6 {
 	width: 100px;
 }
 #menu #menu_top:hover {
-	background: url(../common/gnavi01_btn.png) no-repeat left top;
+	background: url(../common/gnavi01_btn_over.png) no-repeat left top;
 }
 #menu #menu_concept {
 	background: url(../common/gnavi02_btn.png) no-repeat left top;
 	width: 180px;
 }
 #menu #menu_concept:hover {
-	background: url(../common/gnavi02_btn.png) no-repeat left top;
+	background: url(../common/gnavi02_btn_over.png) no-repeat left top;
 }
 #menu #menu_location {
 	background: url(../common/gnavi03_btn.png) no-repeat left top;
@@ -393,7 +402,51 @@ h6 {
 	font-size: 11px;
 	color: #666666;
 }
-
+#company {
+	width: 690px;
+	margin: 0 auto;
+}
+#company li {
+	float: left;
+}
+#company li a {
+	height: 0;
+	padding: 25px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#company #company_btn {
+	background: url(../common/company_btn.png) no-repeat left top;
+	width: 120px;
+	padding-right: 5px;
+}
+#company #company_btn:hover {
+	background: url(../common/company_btn_over.png) no-repeat left top;
+}
+#company #privacy_btn {
+	background: url(../common/privacy_btn.png) no-repeat left top;
+	width: 120px;
+}
+#company #privacy_btn:hover {
+	background: url(../common/privacy_btn_over.png) no-repeat left top;
+}
+#contact {
+	width: 300px;
+	float: right;
+}
+#contact li a {
+	height: 0;
+	padding: 39px 0 0 0;
+	overflow: hidden;
+	display: block;
+}
+#contact #contact_btn {
+	background: url(../common/footer_contact.png) no-repeat left top;
+	width: 300px;
+}
+#contact #contact_btn:hover {
+	background: url(../common/footer_contact_over.png) no-repeat left top;
+}
 
 /*===================================================
 	1-4. Hack Style

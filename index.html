@@ -7,7 +7,7 @@
 <meta name="keywords" content="大阪市,此花区,新築,一戸建て,シエルセーヌ,アンフィニィ・ホーム" />
 <meta name="description" content="全26区画の街、シエルセーヌ大阪此花〜ソレイユトリシマ〜" />
 <link href="css/import.css" rel="stylesheet" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.min.js"></script>
 <script src="js/photoscroll.js"></script>
 </head>
 <body id="top">
@@ -19,12 +19,17 @@
 <div id="header_bg">
 <div id="header">
 <div id="headerL">
-<a href="http://infini-home.jp/" title="シエルセーヌ大阪此花" id="h_logo">シエルセーヌ大阪此花</a>
+<a href="http://infini-home.jp/" title="シエルセーヌ大阪此花〜ソレイユトリシマ〜" id="h_logo">シエルセーヌ大阪此花〜ソレイユトリシマ〜</a>
 </div>
 <div id="headerR">
-<p>全２６区画の街、シエルセーヌ大阪此花〜ソレイユトリシマ〜</p>
-<p>大阪市此花区西島の新築一戸建て</p>
-<a href="https://infini-home.jp/contact/" target="_blank" title="資料請求・お問合せ">資料請求・お問合せ</a>
+    <p>全２６区画の街、シエルセーヌ大阪此花〜ソレイユトリシマ〜</p>
+    <p>大阪市此花区西島の新築一戸建て</p>
+    <div id="outline">
+        <ul>
+            <li id="outline_btn"><a href="">物件検索</a></li>
+            <li id="header-contact_btn"><a href="https://infini-home.jp/contact/">資料請求</a></li>
+        </ul>
+    </div>
 </div>
 </div>
 </div>
@@ -39,7 +44,7 @@
 <li id="menu_location"><a href="location/" title="ロケーション">ロケーション</a></li>
 <li id="menu_plan"><a href="plan/" title="自由設計・プラン">自由設計・プラン</a></li>
 <li id="menu_equipment"><a href="equipment/" title="設備仕様">設備仕様</a></li>
-<li id="menu_outline"><a href="outline/" title="物件概要">物件概要</a></li>
+<li id="menu_outline"><a href="modelhouse/" title="モデルハウス">モデルハウス</a></li>
 </ul>
 </div>
 <!-- menu end -->
@@ -78,35 +83,46 @@
         <p>週末が待ち遠しくなる街、家族でお出かけの予定をたてるのが愉しくなる街、そんなミライが待っています。</p>
     </div>
     <ul id="contents" class="cf">
-        <li id="contents01"><a href="">aaa</a></li>
-        <li id="contents02"><a href="">aaa</a></li>
-        <li id="contents03"><a href="">aaa</a></li>
-        <li id="contents04"><a href="">aaa</a></li>
+        <li id="contents01"><a href="">タウンコンセプト</a></li>
+        <li id="contents02"><a href="">ロケーション</a></li>
+        <li id="contents03"><a href="">モデルハウス</a></li>
+        <li id="contents04"><a href="http://infini-home.jp/gallery/" target="_blank">施工ギャラリー</a></li>
     </ul>
 </div>
 
 <div id="bg_cloud">
 <div class="left">
-<img src="img/results_readcopy.png" alt="" id="img_subinfo" />
-<p>高槻、茨木、吹田、箕面、豊中などを中心に、規模感のある街づくりを行い、大阪北摂エリアの発展に寄与しています。
-その地域に住みたいと考えている人が何を求めているか見極め、
-地域特性・周辺環境に則したデザインやコンセプトを採用して、
-街づくりをプランニングしています。</p>
-<div id="results"><img src="img/results_btn.png" alt="" id="results" /></div>
+    <img src="img/results_readcopy.png" alt="" id="img_subinfo" />
+    <p>高槻、茨木、吹田、箕面、豊中などを中心に、規模感のある街づくりを行い、大阪北摂エリアの発展に寄与しています。
+    その地域に住みたいと考えている人が何を求めているか見極め、
+    地域特性・周辺環境に則したデザインやコンセプトを採用して、
+    街づくりをプランニングしています。</p>
+    <div id="results">
+        <ul>
+            <li id="results_btn"><a href="http://infini-home.jp/works/">アンフィニィ・ホーム分譲実績へ</a></li>
+        </ul>
+    </div>
 </div>
-<img src="img/results_photo.jpg" alt="" id="photo" />
-</div>
+<div class="right"><img src="img/results_photo.jpg" alt="" id="photo" /></div>
 
 <div id="box_subinfo_bg">
 <div id="box_subinfo" class="cf">
     <p>シエルセーヌ大阪此花〜ソレイユトリシマ〜の魅力を動画とブログでご紹介！！</p>
-    <a href=""><img src="img/youtube_btn.jpg" alt="" /></a>
-    <a href=""><img src="img/blog_btn.jpg" alt="" class="right" /></a>
+    <div id="link">
+        <ul>
+            <li id="youtube_btn"><a href="">youtube</a></li>
+            <li id="blog_btn"><a href="">blog</a></li>
+        </ul>
+    </div>
 </div>
 </div>
 
 <div id="box_subinfo" class="cf">
-    <a href=""><img src="img/reservation_btn.jpg" alt="" id="img_subinfo" /></a>
+    <div id="reservation">
+        <ul>
+            <li id="reservation_btn"><a href="http://infini-home.jp/contact/">完全予約制｜事前案内会開催</a></li>
+        </ul>
+    </div>
 </div>
 
 <!-- footer start -->
@@ -123,13 +139,21 @@
         <li id="footer_menuR"><a href="">&#9658;物件仕様</a></li>
     </ul>
     <p>アンフィニィ・ホームは本格自由設計で理想の住まいを叶える家づくりのパートナーです。</p>
-    <img src="common/company_logo.png" alt="" />
-    <a href=""><img src="common/company_btn.png" alt="" /></a>
-    <a href=""><img src="common/privacy_btn.png" alt="" /></a>
+    <div id="company">
+        <img src="common/company_logo.png" alt="" />
+        <ul>
+            <li id="company_btn"><a href="http://infini-home.jp/company/">会社案内</a></li>
+            <li id="privacy_btn"><a href="http://infini-home.jp/privacy/">個人情報保護方針</a></li>
+        </ul>
+    </div>
 </div>
     <div id="footerR">
         <img src="common/footer_tel.png" alt="" />
-        <a href=""><img src="common/footer_contact.png" alt="" /></a>
+        <div id="contact">
+            <ul>
+                <li id="contact_btn"><a href="http://infini-home.jp/contact/">Webからのお問い合わせはこちら</a></li>
+            </ul>
+        </div>
     </div>
 </div>
 <div id="copy">
